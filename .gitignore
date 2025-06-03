@@ -1,0 +1,40 @@
+# Explicitly excluded files based on your request
+rag_pipeline.pkl
+RAG Pipeline Developer Guide & Optimization.pdf
+main.ipynb                      # Exclude this as per your request
+enhanced_chunks_650/            # Exclude this as per your request
+
+# Virtual environment folder (assuming 'Course_RAG' is your venv name)
+Course_RAG/
+
+# General Python ignores
+__pycache__/
+*.pyc
+*.o
+*.so
+*.egg
+*.dist-info/
+*.egg-info/
+venv/
+.venv/
+env/
+.env/
+build/
+dist/
+*.pyo
+
+# Jupyter Notebook specific ignores
+.ipynb_checkpoints/
+.jupyter/
+
+# Operating System specific ignores
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# IDE specific ignores
+.vscode/ # VS Code
+*.suo    # Visual Studio solution user options
+*.user   # Visual Studio user options
+*.log
+*.tmp
